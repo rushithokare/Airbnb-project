@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv
+env
+ENV
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+
+# Data files (keep raw structure but ignore large CSV files if needed)
+# Uncomment below if you want to ignore raw data files
+# data/raw/*.csv
+# data/processed/*.csv
+
+# Model files (optional - uncomment to ignore saved models)
+# models/*.pkl
+# models/*.joblib
+
+# Virtual environment folder
+.venv/
+
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache
+*.cache
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project specific
+reports/generated/
+dashboards/generated/
